@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    ".NETStandard,Version=v2.1": {
+    ".NETCoreApp,Version=v3.1": {
       "ImGui.NET/1.75.0": {
         "type": "package",
         "dependencies": {
@@ -34,28 +34,76 @@
           }
         }
       },
-      "MonoGame.Framework.DesktopGL/3.7.1.189": {
+      "MonoGame.Framework.DesktopGL.Core/3.7.0.7": {
         "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MonoGame.Framework.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MonoGame.Framework.dll": {}
+        },
         "build": {
-          "build/MonoGame.Framework.DesktopGL.targets": {}
+          "build/MonoGame.Framework.DesktopGL.Core.targets": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/libSDL2-2.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libopenal.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x86/native/libSDL2-2.so": {
+            "assetType": "native",
+            "rid": "linux-x86"
+          },
+          "runtimes/linux-x86/native/libopenal.so": {
+            "assetType": "native",
+            "rid": "linux-x86"
+          },
+          "runtimes/osx/native/libSDL2-2.dylib": {
+            "assetType": "native",
+            "rid": "osx"
+          },
+          "runtimes/osx/native/libopenal.dylib": {
+            "assetType": "native",
+            "rid": "osx"
+          },
+          "runtimes/win-x64/native/libSDL2-2.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/libopenal.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/libSDL2-2.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/libopenal.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
         }
       },
       "System.Buffers/4.4.0": {
         "type": "package",
         "compile": {
-          "ref/netstandard2.0/System.Buffers.dll": {}
+          "ref/netcoreapp2.0/_._": {}
         },
         "runtime": {
-          "lib/netstandard2.0/System.Buffers.dll": {}
+          "lib/netcoreapp2.0/_._": {}
         }
       },
       "System.Numerics.Vectors/4.4.0": {
         "type": "package",
         "compile": {
-          "ref/netstandard2.0/System.Numerics.Vectors.dll": {}
+          "ref/netcoreapp2.0/_._": {}
         },
         "runtime": {
-          "lib/netstandard2.0/System.Numerics.Vectors.dll": {}
+          "lib/netcoreapp2.0/_._": {}
         }
       },
       "System.Runtime.CompilerServices.Unsafe/4.4.0": {
@@ -88,29 +136,28 @@
         "runtimes/win-x86/native/cimgui.dll"
       ]
     },
-    "MonoGame.Framework.DesktopGL/3.7.1.189": {
-      "sha512": "7e6CvCZAAglBIPDA+lTwdaRTv0EARPl4s7Ai8gkn7ximiFyRODrpyciSxENUgCowap4y5d5B3Then7k/6UbHGw==",
+    "MonoGame.Framework.DesktopGL.Core/3.7.0.7": {
+      "sha512": "DDQdsO3OreMfpKCPCjBP0hiClhvwo71bK68F8fCP0utkOKbL3dvkVfqrYinlM+QSt30dDt21yO9pMJJStikpHA==",
       "type": "package",
-      "path": "monogame.framework.desktopgl/3.7.1.189",
+      "path": "monogame.framework.desktopgl.core/3.7.0.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "build/MonoGame.Framework.DesktopGL.targets",
-        "build/native/MonoGame.Framework.dll.config",
-        "build/native/libSDL2-2.0.0.dylib",
-        "build/native/libopenal.1.dylib",
-        "build/native/x64/SDL2.dll",
-        "build/native/x64/libSDL2-2.0.so.0",
-        "build/native/x64/libopenal.so.1",
-        "build/native/x64/soft_oal.dll",
-        "build/native/x86/SDL2.dll",
-        "build/native/x86/libSDL2-2.0.so.0",
-        "build/native/x86/libopenal.so.1",
-        "build/native/x86/soft_oal.dll",
-        "lib/net45/MonoGame.Framework.dll",
-        "lib/net45/MonoGame.Framework.xml",
-        "monogame.framework.desktopgl.3.7.1.189.nupkg.sha512",
-        "monogame.framework.desktopgl.nuspec"
+        "build/MonoGame.Framework.DesktopGL.Core.targets",
+        "lib/netstandard2.0/MonoGame.Framework.dll",
+        "lib/netstandard2.0/MonoGame.Framework.xml",
+        "monogame.framework.desktopgl.core.3.7.0.7.nupkg.sha512",
+        "monogame.framework.desktopgl.core.nuspec",
+        "runtimes/linux-x64/native/libSDL2-2.so",
+        "runtimes/linux-x64/native/libopenal.so",
+        "runtimes/linux-x86/native/libSDL2-2.so",
+        "runtimes/linux-x86/native/libopenal.so",
+        "runtimes/osx/native/libSDL2-2.dylib",
+        "runtimes/osx/native/libopenal.dylib",
+        "runtimes/win-x64/native/libSDL2-2.dll",
+        "runtimes/win-x64/native/libopenal.dll",
+        "runtimes/win-x86/native/libSDL2-2.dll",
+        "runtimes/win-x86/native/libopenal.dll"
       ]
     },
     "System.Buffers/4.4.0": {
@@ -206,9 +253,9 @@
     }
   },
   "projectFileDependencyGroups": {
-    ".NETStandard,Version=v2.1": [
+    ".NETCoreApp,Version=v3.1": [
       "ImGui.NET >= 1.75.0",
-      "MonoGame.Framework.DesktopGL >= 3.7.1.189"
+      "MonoGame.Framework.DesktopGL.Core >= 3.7.0.7"
     ]
   },
   "packageFolders": {
@@ -217,25 +264,25 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\projects\\csharp\\Monogame.ImGui\\MonoGame.ImGui\\MonoGame.ImGui.csproj",
+      "projectUniqueName": "c:\\projects\\csharp\\Monogame.ImGui\\MonoGame.ImGui\\MonoGame.ImGui.csproj",
       "projectName": "MonoGame.ImGui",
-      "projectPath": "C:\\projects\\csharp\\Monogame.ImGui\\MonoGame.ImGui\\MonoGame.ImGui.csproj",
+      "projectPath": "c:\\projects\\csharp\\Monogame.ImGui\\MonoGame.ImGui\\MonoGame.ImGui.csproj",
       "packagesPath": "C:\\Users\\Skoggy\\.nuget\\packages\\",
-      "outputPath": "C:\\projects\\csharp\\Monogame.ImGui\\MonoGame.ImGui\\obj\\",
+      "outputPath": "c:\\projects\\csharp\\Monogame.ImGui\\MonoGame.ImGui\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Skoggy\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "netstandard2.1"
+        "netcoreapp3.1"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "netstandard2.1": {
+        "netcoreapp3.1": {
           "projectReferences": {}
         }
       },
@@ -246,15 +293,15 @@
       }
     },
     "frameworks": {
-      "netstandard2.1": {
+      "netcoreapp3.1": {
         "dependencies": {
           "ImGui.NET": {
             "target": "Package",
             "version": "[1.75.0, )"
           },
-          "MonoGame.Framework.DesktopGL": {
+          "MonoGame.Framework.DesktopGL.Core": {
             "target": "Package",
-            "version": "[3.7.1.189, )"
+            "version": "[3.7.0.7, )"
           }
         },
         "imports": [
@@ -268,7 +315,7 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
-          "NETStandard.Library": {
+          "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },

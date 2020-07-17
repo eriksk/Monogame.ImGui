@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "59Hn27g4To170PoxZ2qBXbCxWAwfk9hbBd3+he/WCbtQ5UEBiNTEaGtIombBnxduP2HvDkZaZGHYRILPVOGHgQ==",
+  "dgSpecHash": "zj+jm7fHy9zOUtGjutYAZgZfNFtVlo8K1GblZX5HuYQOn/iRrRtl/3c/mpp1xWnmI1xR/5sxh/Y++9JCDEVDOw==",
   "success": true,
   "projectFilePath": "C:\\projects\\csharp\\Monogame.ImGui\\MonoGame.ImGui\\MonoGame.ImGui.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Skoggy\\.nuget\\packages\\imgui.net\\1.75.0\\imgui.net.1.75.0.nupkg.sha512",
-    "C:\\Users\\Skoggy\\.nuget\\packages\\monogame.framework.desktopgl\\3.7.1.189\\monogame.framework.desktopgl.3.7.1.189.nupkg.sha512",
+    "C:\\Users\\Skoggy\\.nuget\\packages\\monogame.framework.desktopgl.core\\3.7.0.7\\monogame.framework.desktopgl.core.3.7.0.7.nupkg.sha512",
     "C:\\Users\\Skoggy\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
     "C:\\Users\\Skoggy\\.nuget\\packages\\system.numerics.vectors\\4.4.0\\system.numerics.vectors.4.4.0.nupkg.sha512",
     "C:\\Users\\Skoggy\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.4.0\\system.runtime.compilerservices.unsafe.4.4.0.nupkg.sha512"
