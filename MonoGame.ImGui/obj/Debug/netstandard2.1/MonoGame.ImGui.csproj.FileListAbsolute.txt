@@ -1,0 +1,6 @@
+C:\projects\csharp\Monogame.ImGui\MonoGame.ImGui\bin\Debug\netstandard2.1\MonoGame.ImGui.deps.json
+C:\projects\csharp\Monogame.ImGui\MonoGame.ImGui\bin\Debug\netstandard2.1\MonoGame.ImGui.dll
+C:\projects\csharp\Monogame.ImGui\MonoGame.ImGui\obj\Debug\netstandard2.1\MonoGame.ImGui.csprojAssemblyReference.cache
+C:\projects\csharp\Monogame.ImGui\MonoGame.ImGui\obj\Debug\netstandard2.1\MonoGame.ImGui.AssemblyInfoInputs.cache
+C:\projects\csharp\Monogame.ImGui\MonoGame.ImGui\obj\Debug\netstandard2.1\MonoGame.ImGui.AssemblyInfo.cs
+C:\projects\csharp\Monogame.ImGui\MonoGame.ImGui\obj\Debug\netstandard2.1\MonoGame.ImGui.csproj.CoreCompileInputs.cache

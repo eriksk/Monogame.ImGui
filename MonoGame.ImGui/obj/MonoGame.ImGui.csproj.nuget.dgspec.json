@@ -1,0 +1,70 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\projects\\csharp\\Monogame.ImGui\\MonoGame.ImGui\\MonoGame.ImGui.csproj": {}
+  },
+  "projects": {
+    "C:\\projects\\csharp\\Monogame.ImGui\\MonoGame.ImGui\\MonoGame.ImGui.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\projects\\csharp\\Monogame.ImGui\\MonoGame.ImGui\\MonoGame.ImGui.csproj",
+        "projectName": "MonoGame.ImGui",
+        "projectPath": "C:\\projects\\csharp\\Monogame.ImGui\\MonoGame.ImGui\\MonoGame.ImGui.csproj",
+        "packagesPath": "C:\\Users\\Skoggy\\.nuget\\packages\\",
+        "outputPath": "C:\\projects\\csharp\\Monogame.ImGui\\MonoGame.ImGui\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Skoggy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "ImGui.NET": {
+              "target": "Package",
+              "version": "[1.75.0, )"
+            },
+            "MonoGame.Framework.DesktopGL": {
+              "target": "Package",
+              "version": "[3.7.1.189, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
